@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: $text-color-secondary;
     background: $smoky-white;
-    font-size: 14px;
+    font-size: 13px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -86,6 +86,7 @@ p {
             vertical-align: middle;
         }
         li {
+
             margin-bottom: 15px;
             &:last-child {
                 margin-bottom: 0;

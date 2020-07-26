@@ -3,27 +3,22 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Adriano Cesar
-    tagline: Full Stack Developer
+    tagline: Software Developer
     #avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: adrianocorreiacesar@gmail.com
-    phone: 012 345 6789
+    phone: +44 751 788 57 34
+    address: Edinburgh, United Kingdom
     #website: blog.webjeda.com #do not add http://
     linkedin: adrianocesardk
     github: chaimite
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-#     stack-overflow: # Number/Username, e.g. 123456/alandoe
-#     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    # codewars:
 
     languages:
       - idiom: English
@@ -45,73 +40,61 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I recently finished a MSc in Software Development at 
+      the University of Glasgow and I am now working as a 
+      software engineer in a company that provides solutions
+      to improve financial performance for healthcare organizations.
+      Prior to studying software development, I gained a degree in Mechanical 
+      Engineering and experience working as a mechanical designer
+      and before that as project assistant.
+
+experiences:
+    - role: Software Engineer
+      time: Sep 2019 - Present
+      company: Craneware Plc (Edinburgh, United Kingdom)
+      details: |
+        As a software engineer, I am working in front-end fixing bugs,
+        developing new features and testing functional and non-functional 
+        requirements. I am part of an Agile delivery team that contributes
+        to the development of core software releases.  
+    - role: Mechanical Designer
+      time: Aug 2016 - Jan 2017
+      company: Lind Jensens Maskinfabrik, A/S (Lem, Denmark)
+      details: |
+        Performed 3D design and technical drawings to produce hydraulic 
+        cylinders for the wind energy industry. Performed dimensioning of
+        components to endure a level of fatigue and extreme forces based in
+        FEM results and analytical calculations. This internship thought me how 
+        to better manage my time to full fill deadlines. 
+    - role: Project Assistant
+      time: May 2005 - Jun 2014
+      company: Coopemi,Crl (Lisbon, Portugal)
+      details: |
+        Worked in a real-estate development project where I was responsible for
+        liaising between a multitude of building professionals to bring about
+        project completion. I was in charge of communicating with current 
+        customers about payments and project advancements. While developing strong 
+        commercial awareness in a competitive environment, I learned to work
+        in a team, how to handle customers and how to better communicate with people
 education:
     - degree: MSc in Software Development
       university: University of Glasgow
       time: 2018 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Courses include Object Oriented Programming,
+        Databases, Systems and Networks, Enterprise Cyber Security,
+        Software Project Management, Internet Technology,
+        Advanced Programming, Algorithms and Data Structures,
+        Cyber Security Fundamentals and Software Management.
     - degree: BEng in Mechanical Engineering
-      university: Bristol University
+      university: VIA University College (Denmark)
       time: 2014 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        I obtained a final grade of 7.24 (2:1 in the UK).
+        My bachelor project was an automation project, where one of my
+        tasks was to create a program that could recognize different part
+        types as well as calculate the distances needed between reference
+        points, to where a machine would have to move, by using Computer vision tools.
 projects:
     title: Projects
     intro: >
@@ -122,44 +105,6 @@ projects:
       - title: Velocity
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
@@ -183,5 +128,5 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
